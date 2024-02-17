@@ -107,6 +107,7 @@ a:hover{
     display: flex;
     align-items: center;
     gap: .5rem;
+    cursor: pointer;
 }
 
 .box-title{
@@ -161,12 +162,17 @@ a:hover{
 .box6{
     background: #0F6AFA;
     color: white;
-    padding-top: 95px;
+    padding-top: 100px;
 }
 
 .box6 button{
     background-color: rgba(255, 255, 255, 0.15);
     border: 1px solid rgba(255, 255, 255, 0.17);
+}
+
+::selection{
+    background: white;
+    color: #000000;
 }
 
 /* #0D0E24 */
