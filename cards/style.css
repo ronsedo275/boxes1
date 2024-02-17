@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body{
+    background: linear-gradient(  145deg, #2B3378, #0A0B1F);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+}
+
+.card{
+    background: linear-gradient( 45deg, #010004, #00001E);
+    height: 40rem;
+    width: 20rem;
+    display: flex;
+}
+
+i{
+    color: white;
+    text-align: center;
+}
+
+.fa-hand-holding-hand{
+    position: relative;
+    z-index: 100;
+    font-size: 5rem;
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to left, #26F9FC, #0D34AF);
+}
+
+.fa-fingerprint{
+    position: relative;
+    z-index: 100;
+    font-size: 5rem;
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient( to right,  #F6828D, #ED2A7E);
+}
+
+
+.title{
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+p{
+    color: #6F6F70;
+}

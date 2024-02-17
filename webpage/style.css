@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+body{
+    background: #000000;
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+button{
+    background: #0D57FF;
+    color: white;
+    border: 2px solid #0D57FF;
+    padding: .9rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+button:hover{
+    color: white;
+    background: none;
+    border: 2px solid white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav i{
+    font-size: 3rem;
+}
+
+a{
+    text-decoration: none;
+    transition: all 0.4s ease;
+    color: #66666A;
+}
+
+a:hover{
+    color: white;
+}
+
+.fa-letterboxd{
+    color: #B7B5B6;
+}
+
+.title{
+    color: white;
+    text-align: center;
+    margin-top: 9rem;
+    height: 100vh;
+}
+
+.title h1{
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.outline{
+    color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.title p{
+    font-size: 18px;
+}
+
+.title button{
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+.blur1{
+    position: absolute;
+    left: 9rem;
+    top: 18rem;
+    z-index: -100;
+    box-shadow: 0 0 10000px 120px #653700;
+}
+
+.blur2{
+    position: absolute;
+    left: 5rem;
+    top: 25rem;
+    z-index: -100;
+    box-shadow: 0 0 1000px 100px #653700;
+}
+
+.blur3{
+    position: absolute;
+    z-index: -100;
+    left: 80rem;
+    top: 25rem;
+    box-shadow: 0 0 1000px 150px #530094;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.box-title{
+    color: #fff;
+}
+
+.box p{
+    color: white;
+}
+
+.bottom p, i{
+    color: #4C566D;
+}
+
+.fa-folder-open, .fa-calendar, .fa-sim-card, .fa-book, .fa-pen-ruler{
+    color: #FEBB52;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.grids-title{
+    text-align: center;
+}
+
+.grids-title p{
+    color: #ED8409;
+}
+
+.grids-title h1{
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.box6{
+    background: #0F6AFA;
+    color: white;
+    padding-top: 95px;
+}
+
+.box6 button{
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.17);
+}
+
+/* #0D0E24 */
